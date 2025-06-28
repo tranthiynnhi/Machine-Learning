@@ -1,5 +1,7 @@
-# Sơ lược dữ liệu
-**Bank client data:**
+# Đồ án nhóm môn Machine Learning
+**Đề tài: Phân loại khách hàng tiềm năng của một ngân hàng để xem khách hàng có đăng ký sản phẩm tiền gửi có kỳ hạn hay không.**
+## Sơ lược dữ liệu
+**Dữ liệu về khách hàng của ngân hàng:**
 1. Age: tuổi (số, dạng số).
 
 2. Job: loại công việc (phân loại: "admin.", "unknown", "unemployed", "management", "housemaid", "entrepreneur", "student", "blue-collar", "self-employed", "retired", "technician", "services").
@@ -16,7 +18,7 @@
 
 8. Loan: có khoản vay cá nhân không? (nhị phân: "yes", "no").
 
-**Related with the last contact of the current campaign:**
+**Dữ liệu liên quan đến lần liên hệ cuối cùng của chiến dịch:**
 
 9. Contact: Phương thức liên lạc với khách hàng (phân loại: "unknown","telephone","cellular").
 
@@ -26,7 +28,7 @@
 
 12. Duration: Thời gian của cuộc gọi (tính bằng giây, số nguyên).
 
-**Other attributes:**
+**Các dữ liệu khác:**
 
 13. Campaign: Số cuộc gọi đã thực hiện trong chiến dịch (số).
 
@@ -36,6 +38,6 @@
 
 16. Poutcome: Kết quả của chiến dịch trước đó (phân loại: "unknown","other","failure","success").
 
-**Output variable (desired target):**
+**Biến Output:**
 
 17. y: Khách hàng có đăng ký sản phẩm "tiền gửi có kỳ hạn" hay không (có/không).
